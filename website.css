@@ -1,0 +1,93 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+td {
+  padding: 4px;
+}
+
+p {
+  max-width: 700px;
+}
+
+.img-space {
+  margin-bottom: 20px;
+}
+
+.singleFaq {
+  max-width: 700px;
+  border: 1px solid #CCCCCC;
+  padding: 8px;
+  margin-bottom: 15px;
+}
+
+.prof-card {
+  border: 1px solid #CCCCCC;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+a.prof-a-name {
+  color: #0D3A77;
+}
+
+.navbar {
+  border-radius: 0;
+}
+
+.headerBar {
+  margin: 0;
+  height: 140px;
+  background-color: #002354;
+  font-size: 65px;
+}
+
+.headerBarImage {
+  text-align: left;
+  padding-top: 9px;
+}
+
+@media screen and (max-width: 790px) {
+  .headerBarImage {
+    text-align: center;
+  }
+}
+
+.seBar {
+  background-color: #4C4C4C;
+}
+
+.seBarText {
+  color: #E6E6E6;
+}
+
+.ul-lg {
+  font-size: 18px;
+}
+
+@media screen and (min-width: 789px) {
+  .seBar {
+    margin: 0;
+    height: 100px;
+  }
+
+  .seBarText {
+    font-size: 45px;
+    margin-left: 45px;
+    margin-top: 16px;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .seBar {
+    margin: 0;
+    height: 75px;
+  }
+
+  .seBarText {
+    font-size: 20px;
+    margin-top: 25px;
+    /*margin-left: 15px;*/
+    text-align: center;
+  }
+}
