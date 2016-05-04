@@ -15,6 +15,7 @@
 </head>
 
 <body>
+  <div id="wrapper">
   <div class="headerBar row">
     <div class="headerBarImage">
       <a href="home.html"><img src="../images/logo-quinnipiac-university-business-eng.png"></a>
@@ -30,7 +31,7 @@
   <nav class="navbar navbar-default">
     <div class="container-fluid">
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#qcc-navbar" aria-expanded="false">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#quse-navbar" aria-expanded="false">
           <span class="sr-only">Toggle nav bar</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -41,7 +42,7 @@
         </a>
       </div>
 
-      <div class="collapse navbar-collapse" id="qcc-navbar">
+      <div class="collapse navbar-collapse" id="quse-navbar">
         <ul class="nav navbar-nav">
           <li class="active">
             <a href="home.html">Home</a>
@@ -71,7 +72,7 @@
       </div>
     </div>
   </nav>
-    <div class="container">
+    <div id="content" class="container">
       <div class="page-header">
         <h1>BS in Software Engineering</h1>
       </div>
@@ -83,25 +84,33 @@
       </div>
 
       <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-        <img class="img-responsive img-space" src="../images/se-student.jpg" alt="A software engineering student at work."> 
+        <figure style="margin-bottom: 30px;">
+          <img class="img-responsive img-space img-thumbnail" src="../images/hackathon.png" width="500px" alt="A software engineering student at work."> 
+          <figcaption style="text-align: center;">Students enjoying the most recent Quinnipiac Computing Club hackathon.</figcaption>
+        </figure>
       </div>
 
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <p class="lead">
+        <p style="font-size: 16px; margin-bottom: 30px;">
           Programming skills are only one of the many components of a successful graduate of the Quinnipiac software engineering program. Students also acquire requirement specification, design, quality assurance and project management skills. Problem solving in teams through effective use of oral and written communication is also emphasized in the program. Students specify, design, and implement non-trivial software systems and complete a two-semester capstone project. Each student is required to obtain professional experience (e.g., through an internship or a research project) prior to graduation, which is facilitated by the program's collaboration with industrial and academic partners.
         </p>
       </div>
 
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <p class="lead">
+        <p style="font-size: 16px;">
           In today's increasingly digital economy, software engineers are in high demand. Software engineer/developer is consistently ranked among the top jobs in terms of pay, satisfaction, and job growth:
         </p>
-        <ul class="ul-lg">
+
+        <ul class="ul-lg" style="margin-bottom: 40px;">
           <li>Number 1 of the "Top 100 Best Jobs" (US News Money, 2014 ranking)</li>
           <li>$93,350 median yearly pay (U.S. Bureau of Labor Statistics)</li>
           <li>Much faster than average job growth rate (U.S. Bureau of Labor Statistics)</li>
         </ul>
       </div>
+      <figure>
+        <img class="img-responsive img-space img-thumbnail" src="../images/IMG_1476.JPG" width="1500px" alt="A software engineering student at work."> 
+        <figcaption>The Center for Communications & Engineering (CCE) building</figcaption>
+      </figure>
 
       <div class="page-header">
         <h3>Educational Objectives & Student Outcomes</h3>
@@ -180,5 +189,22 @@
           </tr>
         </tbody>
       </table>
+    </div>
+    <div class="footer">
+      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 footer-left">
+        <p>Quinnipiac University</p>
+        <address>
+          275 Mount Carmel Avenue <br>
+          Hamden, CT 06518 <br>
+          203-582-8200
+        </address>
+        <a id="sitemap" href="sitemap.html">Site Map</a>
       </div>
+      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 footer-right">
+        <a href="https://twitter.com/QuinnipiacU"><img src="../images/twitter-logo.png" style="margin: 5px 5px 5px 0px;" class="img-rounded" width="30px;"></a>
+        <a href="https://www.facebook.com/QuinnipiacUniversity/"><img src="../images/facebook-logo.png" style="margin: 5px;" class="img-rounded" width="30px;"></a>
+        <a href="https://www.instagram.com/quinnipiacu/"><img src="../images/insta-logo.png" style="margin: 5px;" class="img-rounded" width="30px;"></a>
+      </div>
+    </div>
+  </div>
 </body>

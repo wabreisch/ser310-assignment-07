@@ -1,0 +1,154 @@
+\documentclass{article}
+
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{graphicx}
+
+% the commands below tell LaTeX to make your document take up way more of the page than it normally would
+\setlength{\marginparwidth} {0.1in}
+\setlength{\oddsidemargin}{-0in}
+\setlength{\evensidemargin}{\oddsidemargin}
+\setlength{\topmargin}{-1in}
+\setlength{\textheight}{9.75in}
+\setlength{\textwidth}{6.5in}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
+
+
+% the line below eliminates indenting of paragraphs
+\setlength\parindent{0in}
+
+\begin{document}
+
+\noindent {\sc
+	Wes Breisch \\
+	SER310 \\
+	\today
+} \\
+
+
+% adds a quarter inch of vertical space
+\vspace{0.25in}
+
+\begin{center}
+	{ \huge \bfseries Assignment \#7 Report}\\[0.4cm] % Title of your document
+	\HRule \\[1.0cm]
+\end{center}
+
+%\section{Website Evaluated}
+%For this assignment, I evaluated \textbf{Doug Moskowicz's} website. \\
+%\vspace{0.25in}
+
+
+%\section{Summary of Results Table}
+%\begin{figure}[h]
+%	\includegraphics[width=16.2cm]{table.png}
+%	\caption{The summary of results table produced by the UserFocus website usability spreadsheet.}
+%\end{figure}
+%
+%\clearpage
+%
+%\section{Radar Graph}
+%\begin{figure}[h]
+%	\includegraphics[width=16.2cm]{graph.png}
+%	\caption{The radar graph produced by the UserFocus website usability spreadsheet.}
+%\end{figure}
+
+
+\section{Task Orientation Problems}
+
+\begin{itemize}
+	\item Tyler's response: \texttt{"Instead of buttons linking to other pages (excluding the navigation bar), the site uses hypertext links.  The solution for this would be using buttons in their places."}
+	\begin{itemize}
+		\item Tyler's justification: \texttt{Principle: Standardize (people are used to buttons, not hypertext links)}
+	\end{itemize}
+	\item My response: I believe that Tyler may have misinterpreted the meaning of the checkpoint found at cell C44 on the "Task Orientation" tab in the heuristic review spreadsheet.  This checkpoint reads \texttt{[c]ommand and action items are presented as buttons (not, for example, as hypertext links)}.  The hypertext links used in the website are used exactly how hypertext links were meant to be used: to take the user to another webpage.  I do not think that navigating to another webpage should be considered an "action item" in this case.  I will not change this aspect of the site because I believe this criticism is based on a flawed understanding of the aforementioned checkpoint.  I also do not think that \texttt{"people are used to buttons, not hypertext links"} is an objective statement based on any evidence.
+\end{itemize}
+\noindent\rule{3cm}{0.4pt}
+\begin{itemize}
+	\item Tyler's response: \texttt{There was no way to sort information presented.  The way to solve this is to have some kind of drop-down menu, or JavaScript code that sorts with a click of a button.}
+	\begin{itemize}
+		\item Tyler's justification: \texttt{Principle: Cater to Universal Usability (not everyone wants to read through an entire graph for one piece of information)}
+	\end{itemize}
+	\item My response: In my opinion, the only information that could be considered a recipient for a sorting feature is the information contained in the "Curriculum" page.  I would guess that most web users have a great deal of familiarity with such HTML tables on the "Curriculum" page and would thus find it painless to view.  There is also no suggestion made as to how the information should be sorted.  The courses are currently listed in ascending order, which seems to be a very obvious ordering choice to me.  I do not think that it would be useful to implement a sorting feature on this page.
+\end{itemize}
+\noindent\rule{3cm}{0.4pt}
+\begin{itemize}
+	\item Tyler's response: \texttt{No error handling or help messages.  Even though it’s a simple site, a single button on the bottom of each page that opens a popup with helpful information about that page could be very useful.}
+	\begin{itemize}
+		\item Tyler's justification: \texttt{Principle: Offer Informative Feedback (self-explanatory)}
+	\end{itemize}
+	\item My response: By the design principle of honesty, I think that the current state of the site is acceptable.  The page is entirely "honest" about the content of the page and I do not think that a popup "with helpful information about that page" would add anything to the usability of the website.  To the best of my knowledge, I have never used a website that employed a technique similar to the one that Tyler has suggested here.  I will not implement this change because I believe that the pages of the website are honest as they exist now and would not benefit from "a popup with helpful information".
+\end{itemize}
+
+
+\section{Navigation \& IA Problems}
+\begin{itemize}
+	\item Tyler's response: \texttt{There is no site map anywhere.  The easiest solution is to add one on the home page, either in the form of a PDF, or as an image presented at the bottom of the page.}
+	\begin{itemize}
+		\item Tyler's justification: \texttt{Reduce Short-Term Memory Load (hard to remember exactly where everything is on a site)}
+	\end{itemize}
+	\item My response: I think that this is a fair assessment.  I have created a site map to help users find their way around the site.
+\end{itemize}
+\noindent\rule{3cm}{0.4pt}
+\begin{itemize}
+	\item Tyler's response: \texttt{Only one way to access each page (though the navigation bar).  The best solution is add links to related pages near graphs, images, and charts.}
+	\begin{itemize}
+		\item Tyler's justification: \texttt{Principle: Make Things Visible (such as other pages’ links while reading content)}
+	\end{itemize}
+	\item My response: The principle referenced here reads, in its entirety, "[m]ake things visible: bridge the gulfs of Execution and Evaluation".  The gulfs of execution and evaluation are related to reducing the cognitive effort required to perform a task, not to the ease with which a user can see a link to another page.  I would argue that arbitrarily adding new ways to navigate to the other pages of the website would decrease the usability of the website.  Having a navigation bar at the top of the page is a common web development practice and it does not take much effort to return to the navigation bar to find another page.
+	
+\end{itemize}
+\noindent\rule{3cm}{0.4pt}
+\begin{itemize}
+	\item Tyler's response: \texttt{The home page has to be scrolled to have all of its contents seen.  The solution here is to move the bulk of information on that page to other related pages.}
+	\begin{itemize}
+		\item Tyler's justification: \texttt{Principle: Bridge Gulf of Execution and Evaluation (People expect the home page to be a navigation-oriented page, not content-based)}
+	\end{itemize}
+	\item My response: I do admit that there is a lot of content on the homepage, but I do not think that vertical scrolling is necessarily a bad thing.  There are \emph{many} popular websites (The New York Times, reddit, Twitter, and YouTube, to name a few) that require the user to scroll down to view all the content on the homepage.  I do not know if the claim "[p]eople expect the home page to be a navigation-oriented page, not content-based" is based on any evidence, but I am doubtful about the truth of this statement.  I will not change the homepage based on this feedback because this feedback does not provide a strong argument as to what is currently wrong with the homepage.
+\end{itemize}
+
+\section{Trust \& Credibility Problems}
+\begin{itemize}
+	\item Tyler's response: \texttt{There is no photo or address of the building.  The best solution: add them to the home page.}
+	\begin{itemize}
+		\item Tyler's justification: \texttt{Principle: Lower Short Term Memory Load (The user shouldn’t have to remember what the building/address from another site)}
+	\end{itemize}
+	\item My response: I think this is a fair assessment.  I have added a footer to each page that contains QU's address and I have added a photo of the CCE building to the homepage of the website.
+\end{itemize}
+
+\section{Page Layout \& Visual Design Problems}
+\begin{itemize}
+	\item Tyler's response: \texttt{Buttons and links that have previously been access need to be able to show they have been pressed, preferably by a change in color.}
+	\begin{itemize}
+		\item Tyler's justification: \texttt{Principle: Design Dialogues Yield Closure (users know they’ve been somewhere after returning from a link)}
+	\end{itemize}
+	\item My response: This is a good point.  Links that have already been visited by the user will now have a darker blue color than unvisited links.
+\end{itemize}
+\noindent\rule{3cm}{0.4pt}
+\begin{itemize}
+	\item Tyler's response: \texttt{Color is not used to sort through any of the information.  It’s recommended that horizontal lines of color be added to the graphs of information so it’s easier to trace something from one side to the other.}
+	\begin{itemize}
+		\item Tyler's justification: \texttt{Principle: Cater to Universal Usability (color helps users sort through information)}
+	\end{itemize}
+	\item My response: I think that this is a good point.  In the curriculum table, I have used Bootstrap tables to highlight the row over which the user's cursor hovers.
+\end{itemize}
+\noindent\rule{3cm}{0.4pt}
+\begin{itemize}
+	\item Tyler's response: \texttt{The logo needs to be able to be clicked and led to either the home page, or the main site.}
+	\begin{itemize}
+		\item Tyler's justification: \texttt{Principle: Knowledge in the World and Knowledge in the Head (users are already used to pressing a logo to return to a main page)}
+	\end{itemize}
+	\item My response: I think this is a good catch by Tyler.  I have attached a hyperlink to the logo image that will take the user back to the homepage upon clicking it.
+\end{itemize}
+
+\section{Help, Feedback, \& Error Tolerance Problems}
+\begin{itemize}
+	\item Tyler's response: \texttt{The FAQ needs to be completed, and filled with questions that ordinary users would have about the site, or about the program itself.}
+	\begin{itemize}
+		\item Tyler's justification: \texttt{Principle: Prevent Errors (harder to make errors if there is a page dedicated to prevent the user from making them)}
+	\end{itemize}
+	\item My response: This is a good point.  I have updated the FAQ page with real content.
+\end{itemize}
+
+\end{document}

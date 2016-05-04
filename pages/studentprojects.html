@@ -13,73 +13,93 @@
 </head>
 
 <body>
-  <div class="headerBar row">
-    <div class="headerBarImage">
-      <a href="home.html"><img src="../images/logo-quinnipiac-university-business-eng.png"></a>
-    </div>
-  </div>
-
-  <div class="seBar row">
-    <div class="seBarText">
-      Department of Software Engineering
-    </div>
-  </div>
-
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#qcc-navbar" aria-expanded="false">
-          <span class="sr-only">Toggle nav bar</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="">
-          <!-- QU SE -->
-        </a>
-      </div>
-
-      <div class="collapse navbar-collapse" id="qcc-navbar">
-        <ul class="nav navbar-nav">
-          <li class="">
-            <a href="home.html">Home</a>
-          </li>
-          <li class="">
-            <a href="curriculum.html">Curriculum</a>
-          </li>
-          <li class="">
-            <a href="faculty.html">Faculty</a>
-          </li>
-          <li class="">
-            <a href="studentlife.html">Student Life</a>
-          </li>
-          <li class="">
-            <a href="studentspotlight.html">Student Spotlights</a>
-          </li>
-          <li class="active">
-            <a href="studentprojects.html">Student Projects</a>
-          </li>
-          <li class="">
-            <a href="facilities.html">Facilities</a>
-          </li>
-          <li class="">
-            <a href="faq.html">FAQ</a>
-          </li>
-        </ul>
+  <div id="wrapper">
+    <div class="headerBar row">
+      <div class="headerBarImage">
+        <a href="home.html"><img src="../images/logo-quinnipiac-university-business-eng.png"></a>
       </div>
     </div>
-  </nav>
-  <div class="container">
-    <div class="page-header">
-      <h1>Student Projects</h1>
-    </div>
-    
-    <h2>Ichor Perfusion Simulator System</h2>
-    <p class="lead">A team consisting of two software engineering and two mechanical engineering students was tasked with producing a complete perfusion simulation system for the perfusion department at Quinnipiac University's Frank D. Netter School of Medicine.</p>
 
-    <div style="text-align: center;">
-      <img class="figure-img img-fluid img-responsive" width="650px;" height="650px;" src="../images/ichor.png" alt="Team Ichor."> 
+    <div class="seBar row">
+      <div class="seBarText">
+        Department of Software Engineering
+      </div>
     </div>
 
-    <p style="margin-top: 20px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus laudantium a nostrum tempora dolore tempore vitae, possimus voluptate incidunt dolor inventore exercitationem, expedita blanditiis repudiandae ipsum eius soluta. Itaque, beatae!  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, magni ut quibusdam facilis quidem maxime, libero minus enim est quis cupiditate doloremque eum quo, modi beatae iure ducimus quos commodi!</p>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#quse-navbar" aria-expanded="false">
+            <span class="sr-only">Toggle nav bar</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="">
+            <!-- QU SE -->
+          </a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="quse-navbar">
+          <ul class="nav navbar-nav">
+            <li class="">
+              <a href="home.html">Home</a>
+            </li>
+            <li class="">
+              <a href="curriculum.html">Curriculum</a>
+            </li>
+            <li class="">
+              <a href="faculty.html">Faculty</a>
+            </li>
+            <li class="">
+              <a href="studentlife.html">Student Life</a>
+            </li>
+            <li class="">
+              <a href="studentspotlight.html">Student Spotlights</a>
+            </li>
+            <li class="active">
+              <a href="studentprojects.html">Student Projects</a>
+            </li>
+            <li class="">
+              <a href="facilities.html">Facilities</a>
+            </li>
+            <li class="">
+              <a href="faq.html">FAQ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="content" class="container">
+      <div class="page-header">
+        <h1>Student Projects</h1>
+      </div>
+      
+      <h2>Team Ichor Perfusion Simulator System</h2>
+      <p class="lead">A team consisting of two software engineering and two mechanical engineering students was tasked with producing a complete perfusion simulation system for the perfusion department at Quinnipiac University's Frank D. Netter School of Medicine.</p>
+
+      <figure>
+        <img class="img-responsive img-space img-thumbnail" src="../images/ichor.png" width="600px;" alt="Team Ichor's iPad user interface."> 
+        <figcaption>The user interface created by the software engineers of Team Ichor</figcaption>
+      </figure>
+
+      <p style="margin-top: 30px;">The perfusion simulator system contains two main subsystems: a mechanical device to sequester water and a software system to control the mechanical device and to allow the student to practice real perfusion scenarios on an iPad.</p>
+    </div>
+    <div class="footer">
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 footer-left">
+        <p class="lead">Quinnipiac University</p>
+        <address>
+          275 Mount Carmel Avenue <br>
+          Hamden, CT 06518 <br>
+          203-582-8200
+        </address>
+       <a id="sitemap" href="sitemap.html">Site Map</a> 
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 footer-right">
+        <a href="https://twitter.com/QuinnipiacU"><img src="../images/twitter-logo.png" style="margin: 5px 5px 5px 0px;" class="img-rounded" width="30px;"></a>
+        <a href="https://www.facebook.com/QuinnipiacUniversity/"><img src="../images/facebook-logo.png" style="margin: 5px;" class="img-rounded" width="30px;"></a>
+        <a href="https://www.instagram.com/quinnipiacu/"><img src="../images/insta-logo.png" style="margin: 5px;" class="img-rounded" width="30px;"></a>
+      </div>
+    </div>
   </div>
+</body>
